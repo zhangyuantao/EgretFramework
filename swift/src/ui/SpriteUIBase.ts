@@ -2,7 +2,7 @@
  * Created by zyt on 2017/12/8.
  * 继承egret.Sprite界面基类
  */
-namespace GameCore.UI {
+namespace Swift.UI {
     export class SpriteUIBase extends egret.Sprite implements IUI{
         key:string;
         data:any;

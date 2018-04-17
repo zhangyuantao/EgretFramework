@@ -3,7 +3,7 @@
  * 继承eui.Component界面基类
  * 需要设置皮肤
  */
-namespace GameCore.UI {
+namespace Swift.UI {
     export class SkinUIBase extends eui.Component implements IUI{
         key:string;
         data:any;

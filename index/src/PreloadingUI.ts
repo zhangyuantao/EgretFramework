@@ -1,5 +1,5 @@
 namespace Index {
-    export class PreloadingUI extends GameCore.UI.SpriteUIBase implements RES.PromiseTaskReporter{
+    export class PreloadingUI extends Swift.UI.SpriteUIBase implements RES.PromiseTaskReporter{
         init(){
             super.init();
             this.createView();

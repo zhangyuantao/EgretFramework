@@ -2,7 +2,7 @@
  * Created by zyt on 2018/1/6.
  * 通用工具类
  */
-namespace GameCore{
+namespace Swift{
     export class Utils{
         static getClassName(target:any){
             return target.__proto__.__class__;

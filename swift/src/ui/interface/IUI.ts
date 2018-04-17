@@ -2,7 +2,7 @@
  * Created by zyt on 2017/12/8.
  * 定义UI界面接口
  */
-namespace GameCore.UI {
+namespace Swift.UI {
     export interface IUI{
         key:string;
         data:any;

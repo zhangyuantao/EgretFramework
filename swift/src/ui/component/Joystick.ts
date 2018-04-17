@@ -1,7 +1,7 @@
 /**
  * 摇杆
  */
-namespace GameCore.UI {
+namespace Swift.UI {
     export class Joystick extends eui.Component {
         private radius: number; // 摇杆半径
         private tray: eui.Image;

@@ -2,7 +2,7 @@
  * Created by zyt on 2018/1/6.
  * UI界面管理
  */
-namespace GameCore.UI {
+namespace Swift.UI {
     export class UIManager{
         private m_uiStackMap:any; // 维护每个层级的ui栈
 
@@ -102,7 +102,7 @@ namespace GameCore.UI {
 
         /**
          * 添加UI元素到指定层
-         * @param {GameCore.UI.LayerBase} layer
+         * @param {Swift.UI.LayerBase} layer
          * @param {egret.DisplayObject} ui
          */
         addToLayer(layer:LayerBase, ui:egret.DisplayObject){
@@ -144,7 +144,7 @@ namespace GameCore.UI {
         /**
          * 获取指定层的当前界面
          * @param {string} name
-         * @returns {GameCore.UI.IUI}
+         * @returns {Swift.UI.IUI}
          */
         getTopFromLayer(layer:LayerBase):IUI{
             let self = this;
@@ -155,7 +155,7 @@ namespace GameCore.UI {
 
         /**
          * 关闭指定层的当前界面
-         * @param {GameCore.UI.LayerBase} layer
+         * @param {Swift.UI.LayerBase} layer
          * @param {boolean} destroy 是否要移除界面
          */
         closeTopFromLayer(layer:LayerBase, destroy:boolean = true){
