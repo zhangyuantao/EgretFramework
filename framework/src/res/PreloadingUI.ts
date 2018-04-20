@@ -1,7 +1,7 @@
-namespace Index {
-    export class PreloadingUI extends Swift.UI.SpriteUIBase implements RES.PromiseTaskReporter{
-        init(){
-            super.init();
+namespace Res {
+    export class PreloadingUI extends UI.SpriteUIBase implements RES.PromiseTaskReporter{
+        onCreate(){
+            super.onCreate();
             this.createView();
         }
 
@@ -12,7 +12,7 @@ namespace Index {
             self.textField = new egret.TextField();
             self.addChild(self.textField);
             self.textField.y = 300;
-            self.textField.width = 480;
+            self.textField.width = Utils.StageUtils.stageWidth;
             self.textField.height = 100;
             self.textField.textAlign = "center";
         }
