@@ -1,5 +1,3 @@
 
 .idea
-index/bin
-puremvc/bin
-swift/bin
+framework/bin
