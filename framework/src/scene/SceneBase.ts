@@ -1,6 +1,4 @@
 namespace Scene{
-    import DisplayObjectContainer = egret.DisplayObjectContainer;
-
     export interface IScene {
         data:any;
         key:string;
@@ -174,7 +172,7 @@ namespace Scene{
          * @param {Swift.UI.LayerBase} layer
          * @param {egret.DisplayObject} ui
          */
-        addToLayer(layer:DisplayObjectContainer, ui:egret.DisplayObject){
+        addToLayer(layer:egret.DisplayObjectContainer, ui:egret.DisplayObject){
             let self = this;
             layer.addChild(ui);
 

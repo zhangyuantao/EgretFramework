@@ -4,6 +4,11 @@
  */
 namespace UI {
     export class EUILayer extends eui.UILayer{
+        constructor(){
+            super();
+            this.touchThrough = true;
+            this.touchEnabled = false;
+        }
     }
 }
 
